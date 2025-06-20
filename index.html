@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doctor Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Doctor Dashboard</h1>
+    <nav>
+      <a href="#patients">Patients</a>
+      <a href="#voiceInput">Voice-to-Text</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="patients">
+      <h2>Patient Info</h2>
+      <div id="patient-list">
+        <!-- Sample data -->
+        <p><strong>Name:</strong> Vipul Sahu<br>
+        <strong>Age:</strong> 19<br>
+        <strong>Problem:</strong>insta feed me Sahu ladkiyo ka aana</p>
+      </div>
+    </section>
+
+    <section id="voiceInput">
+      <h2>Voice-to-Text AI Input</h2>
+      <button onclick="startListening()">🎙 Start Talking</button>
+      <p id="transcript">Patient problem will appear here...</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
